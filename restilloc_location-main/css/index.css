@@ -1,0 +1,89 @@
+@font-face{
+    font-family: "Monsterize";
+    src: url("../fonts/Monsterize.ttf");
+}
+
+/* le style du header */
+#header{ 
+    width:100%;
+    font-family:"Altone";
+    background: linear-gradient(to top, #ffffff 0%, #0066cc 100%);
+}
+
+
+/* le style du content */
+    #content{ 
+        width:100%;
+        min-height: 100% ;
+        padding: 60px 1px;
+    }
+
+
+
+/* style du footer bas de page */
+    #footer{ 
+        width:100%;
+        height: 140px;
+        position:absolute;
+        color: rgb(0, 0, 0);
+        text-transform: uppercase;
+        text-align: center;
+        background: linear-gradient(to bottom, #ffffff 0%, #0066cc 100%);
+        margin-top: 40px;
+    }
+
+
+
+    .dotitle{
+        margin: 20px;
+    }
+
+    .site-title{
+        color: rgb(35, 96, 183) !important;
+        margin:20px;
+        
+    }
+
+    .cat-titre{
+        color:rgb(35, 96, 183);
+    }
+
+    .navbar-nav{
+        font-size: 25px;
+    }
+
+    .navbar{
+        margin-top:30px;
+        background: linear-gradient(to top, #ffffff 0%, #0066cc 100%);
+    }
+
+
+
+
+    /*Sur tout types d'ecrans quand la largeur est comprise entre 1024px et 1280px*/
+    @media all and (min-width:1024px) and (max-width:2500px)
+    {
+    }
+
+    /*Sur tout types d'ecrans quand la largeur est comprise entre 880px et 1024px*/
+    @media all and (min-width:880px) and (max-width:1024px)
+    {
+    }
+
+    /*Sur tous types d'écrans orientés verticalement*/
+    @media all and (orientation:portrait)
+    {
+    }
+
+    /*Sur tout types d'ecrans quand la largeur est comprise entre 0px et 420px*/
+    @media all and (min-width:0px) and (max-width:420px)
+    {
+    }
+
+
+    /*Sur tout types d'ecrans orienté paysage et quand la largeur est à 880px max */
+    @media all and (orientation:landscape) and (max-width:880px)
+    {
+    }
+
+

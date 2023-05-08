@@ -1,0 +1,31 @@
+
+
+.expert_legend {
+    color: rgb(0, 0, 0);
+    padding: 3px 6px;
+}
+
+.expert_fieldset{
+    border: solid;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(to top, #ffffff 0%, #aa00ff 100%);
+}
+
+
+.input_style_expert_DO{
+    width: 400px;
+}
+
+.label_expert{
+    margin-left: 20px;
+}
+
+.input_expert{
+    margin-left: 20px;
+}
+
+.select_expert{
+    margin-left: 20px;
+}

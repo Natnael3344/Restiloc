@@ -1,0 +1,26 @@
+table,
+td {
+    border: 1px solid #333;
+}
+th{
+    border: 1px solid #333;
+}
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+table{
+    text-align:center;
+}
+
+caption{
+    border: 1px solid #333;
+}
+
+.capt_DO{
+    margin: 50px;
+    text-align: center;
+}
+

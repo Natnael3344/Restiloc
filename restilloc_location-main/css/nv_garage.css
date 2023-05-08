@@ -1,0 +1,36 @@
+
+
+.garage_legend {
+    color: rgb(0, 0, 0);
+    padding: 3px 6px;
+}
+
+.garage_fieldset{
+    border: solid;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(to top, #ffffff 0%, #1efe00 100%);
+}
+
+
+.input_style_adresse_garage_DO{
+    width: 400px;
+}
+
+.input_style_cp_garage_DO{
+    width: 100px;
+}
+
+
+.label_garage{
+    margin-left: 20px;
+}
+
+.input_garage{
+    margin-left: 20px;
+}
+
+.select_garage{
+    margin-left: 20px;
+}

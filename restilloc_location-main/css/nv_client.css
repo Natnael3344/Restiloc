@@ -1,0 +1,29 @@
+.client_legend {
+    color: rgb(255, 255, 255);
+    padding: 3px 6px;
+}
+
+.client_fieldset{
+    border: solid;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(to top, #ffffff 0%, #0066cc 100%);
+}
+
+
+.label_client{
+    margin-left: 20px;
+}
+
+.input_client{
+    margin-left: 20px;
+}
+
+.input_style_client_DO{
+    width: 400px;
+}
+
+.input_style_cp_client_DO{
+    width: 100px;
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddGarage"
+    tools:ignore="MissingDefaultResource">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/et_nom_garage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nom du garage"/>
+
+        <EditText
+            android:id="@+id/et_adresse_garage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Adresse du garage"/>
+
+        <EditText
+            android:id="@+id/et_cp_garage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Code postal"/>
+
+        <EditText
+            android:id="@+id/et_ville_garage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ville"/>
+
+        <EditText
+            android:id="@+id/et_tel_garage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Téléphone"/>
+
+        <Button
+            android:id="@+id/btn_enregistrer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enregistrer"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+

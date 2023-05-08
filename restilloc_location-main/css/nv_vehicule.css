@@ -1,0 +1,25 @@
+.vehicule_legend {
+    color: rgb(255, 255, 255);
+    padding: 3px 6px;
+}
+
+.vehicule_fieldset{
+    border: solid;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(to top, #ffffff 0%, #0066cc 100%);
+}
+
+
+.label_nv_vehicule{
+    margin-left: 20px;
+}
+
+.input_nv_vehicule{
+    margin-left: 20px;
+}
+
+.select_nv_vehicule{
+    margin-left: 20px;
+}

@@ -1,0 +1,25 @@
+.rdv_legend {
+    color: rgb(0, 0, 0);
+    padding: 3px 6px;
+}
+
+.rdv_fieldset{
+    border: solid;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: linear-gradient(to top, #ffffff 0%, #ffff00 100%);
+}
+
+
+.label_rdv_restitution{
+    margin-left: 20px;
+}
+
+.input_rdv_restitution{
+    margin-left: 20px;
+}
+
+.select_rdv_restitution{
+    margin-left: 20px;
+}
