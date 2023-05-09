@@ -33,10 +33,10 @@ public class AccueilExpert extends AppCompatActivity {
     LinearLayout layerInfosVehicule, layerInfosClient;
 
     //Adresse complète du fichier php situé sur le serveur qui va executé le script de select des données voiture et client
-    private static String URL_1 = "http://your_ip/restilloc_location-main/search_vehicles.php";
+    private static String URL_1 = "http://194.214.234.254/restilloc_location-main/search_vehicles.php";
 
     //Adresse complète du fichier php situé sur le serveur qui créer ou ouvrir le dossier de restitution
-    private static String URL_2 = "http://your_ip/restilloc_location-main/dossier_restitution.php";
+    private static String URL_2 = "http://194.214.234.254/restilloc_location-main/dossier_restitution.php";
 
 
 

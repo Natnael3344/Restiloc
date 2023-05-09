@@ -41,7 +41,7 @@ public class ListClient extends AppCompatActivity {
         fetchClients();
     }
     private void fetchClients() {
-        StringRequest stringRequest = new StringRequest(Request.Method.GET, "http://your_ip/restilloc_location-main/client_list.php",
+        StringRequest stringRequest = new StringRequest(Request.Method.GET, "http://194.214.234.254/restilloc_location-main/client_list.php",
                 response -> {
                     try {
                         System.out.println(response);

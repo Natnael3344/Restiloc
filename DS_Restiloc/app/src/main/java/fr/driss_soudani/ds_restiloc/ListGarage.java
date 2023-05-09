@@ -44,7 +44,7 @@ public class ListGarage extends AppCompatActivity {
     }
 
     private void fetchGarages() {
-        StringRequest stringRequest = new StringRequest(Request.Method.GET, "http://your_iprestilloc_location-main/garage_list.php",
+        StringRequest stringRequest = new StringRequest(Request.Method.GET, "http://194.214.234.254/restilloc_location-main/garage_list.php",
                 response -> {
                     try {
                         System.out.println(response);

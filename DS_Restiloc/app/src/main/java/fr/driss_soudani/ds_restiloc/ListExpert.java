@@ -40,7 +40,7 @@ public class ListExpert extends AppCompatActivity {
         fetchExperts();
     }
     private void fetchExperts() {
-        StringRequest stringRequest = new StringRequest(Request.Method.GET, "http://your_ip/restilloc_location-main/expert_list.php",
+        StringRequest stringRequest = new StringRequest(Request.Method.GET, "http://194.214.234.254/restilloc_location-main/expert_list.php",
                 response -> {
                     try {
                         System.out.println(response);
